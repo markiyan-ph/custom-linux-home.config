@@ -1,0 +1,3 @@
+Run multimonitor and select option.
+
+Important!!! "dmenu" should been installed

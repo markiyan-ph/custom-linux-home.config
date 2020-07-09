@@ -1,0 +1,6 @@
+#!/bin/sh
+# Wrapper script for extramonitor
+
+source_dir="$(dirname "$0")"
+
+printf "Extend right\nExtend left\nDisconnect\nMirror\nExtend right 100\nExtend left 100\n" | dmenu -i -p "Monitor Configuration" | xargs -I % $source_dir/displays_options.sh "%" "$1" "$2"
