@@ -5,19 +5,32 @@ Some custom config which I use for my linux with XFCE DE
 ### Liunx packages
 ##### List of installed packages:
 
-*albert
-*plank
-*nvim
-*gitg
-*filezilla
-*qbittorrent
-*clementine
-*vlc
-*conky
-*htop
-*lshw
-*mc
-*tmux
+albert
+
+plank
+
+nvim
+
+gitg
+
+filezilla
+
+qbittorrent
+
+clementine
+
+vlc
+
+conky
+
+htop
+
+lshw
+
+mc
+
+tmux
+
 
 
 ## ================================
