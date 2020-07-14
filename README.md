@@ -6,31 +6,18 @@ Some custom config which I use for my linux with XFCE DE
 ##### List of installed packages:
 
 albert
-
 plank
-
 nvim
-
 gitg
-
 filezilla
-
 qbittorrent
-
 clementine
-
 vlc
-
 conky
-
 htop
-
 lshw
-
 mc
-
 tmux
-
 
 
 ## ================================
