@@ -3,4 +3,4 @@
 
 source_dir="$(dirname "$0")"
 
-printf "Extend right\nExtend left\nDisconnect\nMirror\nExtend right 100\nExtend left 100\n" | dmenu -fn 'Noto Sans-15' -i -p "Monitor Configuration" | xargs -I % $source_dir/displays_options.sh "%" "$1" "$2"
+printf "Extend right\nExtend left\nDisconnect\nMirror\nExtend right 100\nExtend left 100\n" | dmenu -fn 'Noto Sans-13' -i -p "Monitor Configuration" | xargs -I % $source_dir/displays_options.sh "%" "$1" "$2"
