@@ -7,4 +7,4 @@ source_dir="$(dirname "$0")"
 source $source_dir/display_variables.sh
 
 # xrandr --output $secondary --preferred --scale $scale --right-of $main
-xrandr --output $secondary --mode $default_resolution --right-of $main 
+xrandr --output $secondary --mode $default_resolution --rate $refresh_rate --right-of $main 

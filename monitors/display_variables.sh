@@ -1,4 +1,5 @@
 main="eDP1"
 secondary="HDMI1"
 default_resolution="2560x1440"
+refresh_rate="60.00"
 scale="0.70x0.70"
