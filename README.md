@@ -5,10 +5,10 @@ Some custom config which I use for my linux with XFCE DE
 ### Liunx packages
 ##### List of installed packages:
 
-albert
+albert or ulauncher
 plank
 nvim
-gitg
+GitFiend
 filezilla
 qbittorrent
 clementine
