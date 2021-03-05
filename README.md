@@ -46,3 +46,4 @@ nvm
 xfce4-weather-plugin
 bcompare
 camunda modeller
+nomacs
