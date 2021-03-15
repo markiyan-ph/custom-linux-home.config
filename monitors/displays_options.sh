@@ -1,10 +1,10 @@
-#!/bin/sh
+#!/bin/bash
 # Multiple monitors configurations
 
 source_dir="$(dirname "$0")"
 
 # If plank
-killall plank
+# killall plank
 
 # If conky
 killall conky
@@ -19,7 +19,7 @@ case "$1" in
 esac
 
 #If plank
-plank &
+# plank &
 
 # If conky
 conky -p3 -d
