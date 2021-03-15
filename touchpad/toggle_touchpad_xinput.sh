@@ -10,6 +10,8 @@ echo ${status}
 
 if [ 0 -eq ${status} ] ; then
     xinput enable ${tpid}
+    notify-send -i ~/.config/custom/touchpad/icons/touchpad-indicator-light-enabled.svg "Touchpad Indicator" "Touchpad Enabled"
 else
     xinput disable ${tpid}
+    notify-send -i ~/.config/custom/touchpad/icons/touchpad-indicator-light-disabled.svg "Touchpad Indicator" "Touchpad Disabled"
 fi
